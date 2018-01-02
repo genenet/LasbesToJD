@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/19/2017 19:30:26" ReportInfo.Modified="12/19/2017 19:34:18" ReportInfo.CreatorVersion="2017.1.16.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="70.0024" PaperHeight="40.005" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+    <DataBand Name="Data1" Width="264.61" Height="151.22">
+      <TextObject Name="txtInfo" Left="9.45" Top="9.45" Width="245.7" Height="132.3" Text="套装勿拆" HorzAlign="Center" VertAlign="Center" Font="宋体, 36pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

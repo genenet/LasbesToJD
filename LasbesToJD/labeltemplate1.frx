@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/15/2017 16:04:18" ReportInfo.Modified="01/02/2018 09:27:35" ReportInfo.CreatorVersion="2017.1.16.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="40" PaperHeight="30" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+    <DataBand Name="Data1" Width="151.2" Height="113.4">
+      <TableObject Name="Table1" Left="3.78" Top="3.78" Width="143.64" Height="105.84">
+        <TableColumn Name="Column1" Width="143.64"/>
+        <TableRow Name="Row1" Height="52.92">
+          <TableCell Name="Cell1">
+            <PictureObject Name="bcProPic" Width="143.64" Height="52.92" Dock="Fill"/>
+          </TableCell>
+        </TableRow>
+        <TableRow Name="Row2" Height="52.92">
+          <TableCell Name="Cell6">
+            <TextObject Name="txtName" Width="143.64" Height="52.92" Dock="Fill" Text="品名：云间花生牛轧糖400克*3袋&#13;&#10;品牌：云间    规格：400g*3&#13;&#10;保质期：180天 生产日期：2017-12-18" Padding="0, 0, 0, 0" Font="宋体, 6pt"/>
+            <TextObject Name="Text2" Dock="Fill"/>
+          </TableCell>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+  </ReportPage>
+</Report>
