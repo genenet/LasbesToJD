@@ -33,12 +33,6 @@ namespace LasbesToJD
         {
             PreLabels();
         }
-
-        private void btnOpen_Click(object sender, EventArgs e)
-        {
-            PreLabels();
-        }
-
         private void txtInfoOther_TextChanged(object sender, EventArgs e)
        {
             PreLabels();
@@ -141,7 +135,6 @@ namespace LasbesToJD
                         _strFilePathOther = strFilePath;
                     }
                 }
-                PreLabels();
             }
 
         }

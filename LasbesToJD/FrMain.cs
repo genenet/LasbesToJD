@@ -17,6 +17,7 @@ namespace LasbesToJD
     {
         private string _strFilePath = "";
         private string _strFilePathOther = "";
+        private bool _bIsDoubleStart = false;
         public FrMain()
         {
             InitializeComponent();
@@ -28,21 +29,14 @@ namespace LasbesToJD
     
         private void txtBarCode_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("txtBarCodeChange");
-            PreLabels();
-            
+                PreLabels();
         }
 
         private void txtInfos_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("txtInfos_TextChanged");
-            PreLabels();
+                PreLabels();
         }
 
-        private void btnOpen_Click(object sender, EventArgs e)
-        {
-            PreLabels();
-        }
 
         private void txtInfoOther_TextChanged(object sender, EventArgs e)
        {
@@ -162,7 +156,6 @@ namespace LasbesToJD
                         _strFilePathOther = strFilePath;
                     }
                 }
-                PreLabels();
             }
 
         }
